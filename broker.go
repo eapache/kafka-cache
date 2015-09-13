@@ -125,3 +125,18 @@ func (b *Broker) Offset(req *sarama.OffsetRequest) *sarama.OffsetResponse {
 	}
 	return response
 }
+
+func (b *Broker) ConsumerMetadata(req *sarama.ConsumerMetadataRequest) *sarama.ConsumerMetadataResponse {
+	// TODO
+	return nil
+}
+
+func (b *Broker) CommitOffset(req *sarama.OffsetCommitRequest) *sarama.OffsetCommitResponse {
+	// TODO
+	return nil
+}
+
+func (b *Broker) FetchOffset(req *sarama.OffsetFetchRequest) *sarama.OffsetFetchResponse {
+	// TODO
+	return nil
+}
